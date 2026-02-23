@@ -1,0 +1,52 @@
+name: projeto
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.7.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_core: ^3.13.1
+  firebase_auth: ^5.5.4
+  shared_preferences: ^2.0.0
+  firebase_database: ^11.3.6
+  cloud_firestore: ^5.6.8
+  firebase_storage: ^12.4.7
+  image_picker: ^1.1.2
+  flutter_map: ^8.1.1
+  latlong2: ^0.9.1
+  flutter_local_notifications: ^19.2.1
+  firebase_messaging: ^15.2.7
+  #environment_sensors: 0.2.0
+  light: ^4.1.0
+  permission_handler: ^12.0.0+1
+  #flutter_sensors: ^1.0.1
+  intl: ^0.20.2
+  http: ^1.4.0
+  geolocator: ^14.0.1
+  google_sign_in: ^6.3.0
+  flutter_native_splash: ^2.4.6
+  printing: ^5.14.2
+  path_provider: ^2.1.5
+  pdf: ^3.11.3
+  
+  
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/logo.jpeg
+
+flutter_native_splash:
+  color: "#2A815E"
+  image: assets/images/logo.jpeg
+  android: true
